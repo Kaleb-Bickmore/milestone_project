@@ -8,11 +8,11 @@ window.location.href="https//:instagram.com";
 document.getElementById("facebook").onclick=function(){
 window.top.location.href="https//:facebook.com"; 
 }
-document.getElementById("contactUs").onclick=function(){
-   moveSoda();
- window.location.href="/contact.html"; 
-}
-function moveSoda() {
+document.getElementById("contactUs").onclick=//function(){
+
+// window.location.href="/contact.html"; 
+//}
+function myMove() {
   var elem = document.getElementById("soda");
   var pos = 0;
   var id = setInterval(frame, 5);
@@ -22,6 +22,7 @@ function moveSoda() {
     } else {
       pos++;
       elem.style.top = pos + 'px';
+     // elem.style.left = pos + 'px';
     }
   }
 }
