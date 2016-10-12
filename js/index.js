@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.getElementById("twitter").onclick=function(){
 window.location.replace("https//:twitter.com"); 
 }
@@ -24,3 +25,6 @@ function moveSoda() {
     }
   }
 }
+=======
+
+>>>>>>> parent of 9777351... webpage is now finished and all set up.
